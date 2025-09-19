@@ -1,0 +1,33 @@
+name: kabtour_social_offline
+description: Offline-only social media MVP for Kabtour (persistent, tested)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # DI & State
+  get_it: ^7.6.4
+  provider: ^6.1.2
+  # Storage & Files
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  # Media capture/pick
+  image_picker: ^1.1.2
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
